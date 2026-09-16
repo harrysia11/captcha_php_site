@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Корпоративное такси «Букет»</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfpKrAtAAAAAHVljnaAT9IEDOgacDmufOBaRfLc"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&display=swap"
+          rel="stylesheet"/>
+
+    <script src="./imask.min.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="container header-inner">
+        <div class="logo-block">
+            <img src="images/Логотип.jpg" alt="Логотип Такси Букет"/>
+            <div class="logo-text">
+                <div class="brand"><span class="orange">БУКЕТ</span> Такси</div>
+                <div class="sub">Корпоративное такси <span class="orange">для бизнеса</span></div>
+            </div>
+        </div>
+        <nav class="nav">
+            <a href="#why">Почему мы?</a>
+            <a href="#cars">Автомобили</a>
+            <a href="#corp" class="active">Корпоративным клиентам</a>
+            <a href="#contacts">Контакты</a>
+            <a href="https://ip.cbzt.ru:8443/taxi-client/" class="btn-outline">Войти в Личный кабинет</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+
+    <div class="page-title">
+        <h1>🚘 Наш автопарк</h1>
+        <p>Комфортные автомобили для поездок любого уровня</p>
+    </div>
+
+    <!-- ===== АВТОМОБИЛИ ===== -->
+    <div class="cars-grid" id="cars">
+
+        <div class="car-card">
+            <div class="car-thumb"><img src="images/Комфорт.jpg" alt="Комфорт" loading="lazy"/></div>
+            <div class="car-info">
+                <div class="name">Комфорт</div>
+                <span class="class-tag">Стандарт</span>
+                <div class="desc">Базовый класс для повседневных поездок</div>
+            </div>
+        </div>
+
+        <div class="car-card">
+            <div class="car-thumb"><img src="images/Комфорт+.jpg" alt="Комфорт +" loading="lazy"/></div>
+            <div class="car-info">
+                <div class="name">Комфорт +</div>
+                <span class="class-tag">Повышенный</span>
+                <div class="desc">Просторнее и комфортнее стандартного класса</div>
+            </div>
+        </div>
+
+        <div class="car-card">
+            <div class="car-thumb"><img src="images/Бизнес.jpg" alt="Бизнес" loading="lazy"/></div>
+            <div class="car-info">
+                <div class="name">Бизнес</div>
+                <span class="class-tag">Бизнес</span>
+                <div class="desc">Для деловых встреч и переговоров</div>
+            </div>
+        </div>
+
+        <div class="car-card">
+            <div class="car-thumb"><img src="images/Представительский.jpg" alt="Представительский" loading="lazy"/>
+            </div>
+            <div class="car-info">
+                <div class="name">Представительский</div>
+                <span class="class-tag">Премиум</span>
+                <div class="desc">Максимальный уровень комфорта и статуса</div>
+            </div>
+        </div>
+
+        <div class="car-card">
+            <div class="car-thumb"><img src="images/Виано.jpg" alt="Минивэн" loading="lazy"/></div>
+            <div class="car-info">
+                <div class="name">Минивэн</div>
+                <span class="class-tag">Минивэн</span>
+                <div class="desc">Минивэн бизнес класса для 5–6 пассажиров</div>
+            </div>
+        </div>
+
+        <div class="car-card">
+            <div class="car-thumb"><img src="images/Спринтер.jpg" alt="Спринтер" loading="lazy"/></div>
+            <div class="car-info">
+                <div class="name">Спринтер</div>
+                <span class="class-tag">Микроавтобус</span>
+                <div class="desc">Для групп до 20 человек</div>
+            </div>
+        </div>
+
+        <div class="car-card">
+            <div class="car-thumb"><img src="images/Автобус.jpg" alt="Автобус" loading="lazy"/></div>
+            <div class="car-info">
+                <div class="name">Автобус</div>
+                <span class="class-tag">Автобус</span>
+                <div class="desc">Для корпоративных перевозок больших групп</div>
+            </div>
+        </div>
+
+    </div>
+
+    <section class="why-section" id="why">
+        <h2>Почему <span class="orange">мы</span>?</h2>
+        <p class="intro">
+            Такси «Букет» — специализированный транспортный сервис исключительно для юридических лиц. Мы полностью
+            сфокусированы на задачах бизнеса, гарантируя надежность, гибкость и комфорт в каждой поездке.
+        </p>
+        <div class="why-highlight">
+            <div class="title">🚘 Собственный автопарк полного цикла</div>
+            <div class="desc">Мы не привлекаем сторонних водителей — только свои автомобили, свои сотрудники и полный
+                контроль на всех этапах.
+            </div>
+        </div>
+        <ul class="why-grid">
+            <li><strong>Собственный автопарк полного цикла.</strong> Все автомобили принадлежат компании, проходят
+                регулярное ТО и обновляются по графику.
+            </li>
+            <li><strong>Своя живая диспетчерская.</strong> Круглосуточная служба, которая всегда на связи и оперативно
+                решает любые вопросы.
+            </li>
+            <li><strong>Свой сервис обслуживания автомобилей.</strong> Собственный техцентр для ремонта и обслуживания
+                машин — никаких простоев и сторонних подрядчиков.
+            </li>
+            <li><strong>Медицинский кабинет.</strong> Все водители проходят предрейсовый медосмотр в собственном
+                медкабинете — гарантия вашей безопасности.
+            </li>
+            <li><strong>Отдел контроля качества.</strong> Служба, которая проверяет каждую поездку, состояние
+                автомобилей и работу водителей.
+            </li>
+            <li><strong>Коммерческий отдел с персональными менеджерами.</strong> У каждого корпоративного клиента — свой
+                менеджер, который решает все вопросы индивидуально.
+            </li>
+            <li style="grid-column: 1 / -1;"><strong>Своя логистическая система распределения заказов.</strong> Умный
+                алгоритм распределяет заказы между водителями, сокращая время подачи и оптимизируя маршруты.
+            </li>
+        </ul>
+    </section>
+
+    <!-- ===== БЛОК «КОРПОРАТИВНЫМ КЛИЕНТАМ» (ОБНОВЛЁН) ===== -->
+    <section class="corp-section" id="corp">
+        <h2>Корпоративным <span class="orange">клиентам</span></h2>
+        <p class="intro">Преимущества для корпоративных клиентов:</p>
+        <div class="corp-wrapper">
+            <div class="corp-content">
+                <ul class="corp-grid">
+                    <li><strong>Интеграция по API</strong> — автоматический заказ такси.</li>
+                    <li><strong>Постоплата и отсрочка</strong> — оплата единым счетом по итогам месяца с гарантированной
+                        отсрочкой платежа от 5 до 10 дней.
+                    </li>
+                    <li><strong>Полный ЭДО</strong> — моментальный обмен закрывающими документами через Диадок или СБИС
+                        без бумажной волокиты.
+                    </li>
+                    <li><strong>Лимиты и контроль</strong> — управление бюджетами на поездки для каждого сотрудника или
+                        отдела в личном кабинете.
+                    </li>
+                    <li><strong>Расширенная детализация поездок</strong> — с необходимыми именно для вас данными.</li>
+                    <li><strong>Возможность возмещения до 22% НДС</strong> — все поездки оформляются с полным пакетом
+                        закрывающих документов.
+                    </li>
+                    <li><strong>100% легальность</strong> — лицензированный автопарк, ежедневный техосмотр и
+                        предрейсовый медосмотр водителей.
+                    </li>
+                    <li><strong>Возможность предоставления фиксированной цены без динамических коэффициентов</strong> —
+                        стабильная стоимость для планирования бюджета.
+                    </li>
+                    <li style="grid-column: 1 / -1;"><strong>VIP-сервис</strong> — круглосуточная поддержка 24/7,
+                        персональный менеджер и встречи в аэропортах с табличкой.
+                    </li>
+                </ul>
+            </div>
+            <div class="corp-image">
+                <img src="images/Трансфер.jpg" alt="Трансфер для корпоративных клиентов" loading="lazy"/>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== КОНТАКТЫ ===== -->
+    <section class="contacts-section" id="contacts">
+        <h2>📬 Получить <span class="orange">коммерческое предложение</span></h2>
+        <p class="intro">Заполните форму, и мы свяжемся с вами в течение 30 минут</p>
+
+        <div class="contacts-wrapper">
+            <div class="contacts-form">
+                <form id="contactForm" onsubmit="return false;">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Ваше имя <span class="required">*</span></label>
+                            <input id="name" placeholder="Имя" required type="text" pattern="\D+"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон <span class="required">*</span></label>
+                            <input id="phone" type="text" required/>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input id="email" placeholder="Email" required type="email"
+                                   pattern="^[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$"/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Текст вашего вопроса</label>
+                        <textarea id="message" placeholder="Опишите ваши потребности в корпоративных перевозках..."
+                                  required rows="5"></textarea>
+                    </div>
+
+                    <div class="form-group-checkbox">
+                        <input type="checkbox" id="agree" required/>
+                        <label for="agree">
+                            Поставив отметку в этом поле, я соглашаюсь и принимаю условия обработки моих персональных
+                            данных и условия <a href="./privacy_policy.pdf">политики конфиденциальности</a>.
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Отправить запрос</button>
+                </form>
+                <div id="result" class="result"/>
+            </div>
+
+            <div class="contacts-info">
+                <div class="company-name">ООО "МЕДТУР"</div>
+                <div class="company-inn">ИНН 7716793385</div>
+
+                <div class="info-item">
+                    <span class="icon">📞</span>
+                    <div><strong>Телефон</strong><br/>+7 495 927-00-00</div>
+                </div>
+                <div class="info-item">
+                    <span class="icon">📞</span>
+                    <div><strong>Комерческий отдел</strong><br/>+7 495 660-71-72</div>
+                </div>
+                <div class="info-item">
+                    <span class="icon">📧</span>
+                    <div><strong>Email</strong><br/>corp@cbzt.ru</div>
+                </div>
+                <div class="info-item">
+                    <span class="icon">📍</span>
+                    <div>
+                        <strong>Адрес</strong><br/>
+                        129128, г. Москва, вн. тер. г. муниципальный округ Ростокино,<br/>
+                        ул. Малахитовая, д. 27Б, помещ. 16А, эт. 3
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="icon">🕐</span>
+                    <div><strong>Режим работы</strong><br/>Круглосуточно, 24/7</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footer-main">
+            © 2026 <span class="orange">Корпоративное Такси «Букет»</span> — для бизнеса
+        </div>
+        <div class="footer-links">
+            <a href="./privacy_policy.pdf">Политика конфиденциальности</a>
+            <a href="#contacts">Контакты</a>
+            <a href="#corp">Корпоративным клиентам</a>
+        </div>
+        <div class="footer-disclaimer">
+            Информация на сайте не является публичной офертой. Корпоративное транспортное обслуживание предоставляется
+            только на основании официально заключенного договора. Свяжитесь с нами для получения индивидуального
+            коммерческого предложения.
+        </div>
+    </div>
+</footer>
+
+<script>
+    // подсветка с подчеркиванием текущего пункта меню nav
+    document.querySelectorAll('.nav a').forEach(link => {
+        link.addEventListener('click', function () {
+            if (this.classList.contains('btn-outline')) return;
+            document.querySelectorAll('.nav a').forEach(a => a.classList.remove('active'));
+            this.classList.add('active');
+        });
+    });
+
+    // отпрвка запроса
+    const phoneInput = document.getElementById('phone');
+    const mask = IMask(phoneInput, {
+        mask: '{8} (000) 000-00-00',
+        lazy: false,
+        placeholderChar: '_'
+    });
+
+    const CAPTCHA_FRONT_KEY = "6LfpKrAtAAAAAHVljnaAT9IEDOgacDmufOBaRfLc"
+
+    document.getElementById('contactForm').addEventListener('submit', async (event) => {
+
+        event.preventDefault();
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+        const result = document.getElementById('result');
+        const phone = mask.value;
+
+        if (name.replace(/\d/g, '').trim().length === 0) {
+            result.textContent = '❌ Введите корректное Имя';
+            result.style.color = 'red';
+            return;
+        }
+
+        if (mask.unmaskedValue.replace(/\D/g, '').length !== 11) {
+            result.textContent = '❌ Введите корректный номер телефона (11 цифр)';
+            result.style.color = 'red';
+            return;
+        }
+
+        const token = await new Promise((resolve) => {
+            grecaptcha.ready(() => {
+                grecaptcha.execute(CAPTCHA_FRONT_KEY, {action: 'submit'}).then(resolve);
+
+            });
+        });
+        try {
+            const serverResponse = await fetch('./submit.php', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({name, phone, email, message, token})
+            });
+
+            const data = await serverResponse.json();
+            console.log("serverResponse", data);
+
+            const errorMessage = data.message ?? 'Неизвестная ошибка';
+
+            if (!serverResponse.ok) {
+                result.textContent = '❌ ' + errorMessage;
+                result.style.color = 'red';
+            } else if (data.success && data.success === true) {
+                document.getElementById('contactForm').reset();
+                mask.value = '';
+                result.textContent = data.message;
+                result.style.color = 'inherit'; // сброс цвета
+                alert(data.message);
+            } else {
+                result.textContent = data.message;
+                result.style.color = 'red';
+            }
+
+        } catch (exception) {
+            result.textContent = exception.toString();
+            result.style.color = 'red';
+        }
+
+    });
+
+</script>
+
+</body>
+</html>
