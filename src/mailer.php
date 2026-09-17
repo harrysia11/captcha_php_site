@@ -16,7 +16,7 @@ function sendMail(string $name, string $email, string $phone, string $message): 
         $mail->SMTPAuth   = true;
         $mail->Username   = env('MAIL_USER');
         $mail->Password   = env('MAIL_PASSWORD');
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // или ENCRYPTION_SMTPS для 465
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // или ENCRYPTION_SMTPS для 465 // ENCRYPTION_STARTTLS для 25 порта
         $mail->CharSet    = 'UTF-8';
 
         // Отправитель и получатель
