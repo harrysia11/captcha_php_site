@@ -755,3 +755,200 @@ footer .footer-disclaimer {
    border-radius: 10px;
    padding: 10px;
  }
+ /* ============================================
+    ССЫЛКИ НА МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ
+    ============================================ */
+ .store-links {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 16px;
+   flex-wrap: wrap;
+   margin: 0 0 32px;
+   padding-top: 8px;
+ }
+
+ .store-link {
+   display: inline-flex;
+   align-items: center;
+   gap: 12px;
+   padding: 12px 20px;
+   background: #1a1a1a;
+   color: #ffffff;
+   border-radius: 14px;
+   text-decoration: none;
+   font-family: 'Inter', sans-serif;
+   border: 2px solid transparent;
+   transition: transform 0.25s ease,
+   box-shadow 0.25s ease,
+   background 0.25s ease,
+   border-color 0.25s ease;
+   will-change: transform;
+ }
+
+ .store-link:hover {
+   transform: translateY(-5px);
+   background: #2a2a2a;
+   border-color: #ff6600;
+   box-shadow: 0 10px 24px rgba(255, 102, 0, 0.25);
+ }
+
+ .store-link:active {
+   transform: translateY(-2px);
+   box-shadow: 0 4px 12px rgba(255, 102, 0, 0.2);
+ }
+
+ .store-icon {
+   width: 28px;
+   height: 28px;
+   fill: currentColor;
+   flex-shrink: 0;
+   transition: fill 0.25s ease;
+ }
+
+ .store-link:hover .store-icon {
+   fill: #ff6600;
+ }
+
+ .store-text {
+   display: flex;
+   flex-direction: column;
+   line-height: 1.15;
+   text-align: left;
+ }
+
+ .store-label {
+   font-size: 10px;
+   opacity: 0.7;
+   text-transform: uppercase;
+   letter-spacing: 0.6px;
+   font-weight: 500;
+ }
+
+ .store-name {
+   font-size: 15px;
+   font-weight: 700;
+ }
+
+ /* Адаптив для мобильных */
+ @media (max-width: 480px) {
+   .store-links {
+     gap: 10px;
+   }
+
+   .store-link {
+     padding: 10px 14px;
+     gap: 8px;
+   }
+
+   .store-icon {
+     width: 22px;
+     height: 22px;
+   }
+
+   .store-label {
+     font-size: 9px;
+   }
+
+   .store-name {
+     font-size: 13px;
+   }
+ }/* ============================================
+   ССЫЛКИ НА МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ
+   ============================================ */
+ .store-links {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 16px;
+   flex-wrap: wrap;
+   margin: 0 0 32px;
+   padding-top: 8px;
+ }
+
+ .store-link {
+   display: inline-flex;
+   align-items: center;
+   gap: 12px;
+   padding: 12px 20px;
+   background: #1a1a1a;
+   color: #ffffff;
+   border-radius: 14px;
+   text-decoration: none;
+   font-family: 'Inter', sans-serif;
+   border: 2px solid transparent;
+   transition: transform 0.25s ease,
+   box-shadow 0.25s ease,
+   background 0.25s ease,
+   border-color 0.25s ease;
+   will-change: transform;
+ }
+
+ .store-link:hover {
+   transform: translateY(-5px);
+   background: #2a2a2a;
+   border-color: #ff6600;
+   box-shadow: 0 10px 24px rgba(255, 102, 0, 0.25);
+ }
+
+ .store-link:active {
+   transform: translateY(-2px);
+   box-shadow: 0 4px 12px rgba(255, 102, 0, 0.2);
+ }
+
+ .store-icon {
+   width: 28px;
+   height: 28px;
+   fill: currentColor;
+   flex-shrink: 0;
+   transition: fill 0.25s ease;
+ }
+
+ .store-link:hover .store-icon {
+   fill: #ff6600;
+ }
+
+ .store-text {
+   display: flex;
+   flex-direction: column;
+   line-height: 1.15;
+   text-align: left;
+ }
+
+ .store-label {
+   font-size: 10px;
+   opacity: 0.7;
+   text-transform: uppercase;
+   letter-spacing: 0.6px;
+   font-weight: 500;
+ }
+
+ .store-name {
+   font-size: 15px;
+   font-weight: 700;
+ }
+
+ /* Адаптив для мобильных */
+ @media (max-width: 480px) {
+   .store-links {
+     gap: 10px;
+   }
+
+   .store-link {
+     padding: 10px 14px;
+     gap: 8px;
+   }
+
+   .store-icon {
+     width: 22px;
+     height: 22px;
+   }
+
+   .store-label {
+     font-size: 9px;
+   }
+
+   .store-name {
+     font-size: 13px;
+   }
+ }
